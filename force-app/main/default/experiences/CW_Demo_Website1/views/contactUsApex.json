@@ -1,0 +1,59 @@
+{
+  "appPageId" : "f2674d95-1c89-4069-9290-8db51afadcc9",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "69ab7998-7538-4386-bcec-6ee51654cd80",
+  "label" : "Contact Us (Apex)",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1f49c826-67d3-4659-8e79-241ee42ab30a",
+          "columns" : [ {
+            "UUID" : "8d7808bd-abed-410b-89c6-e4fbe016610b",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1f49c826-67d3-4659-8e79-241ee42ab30a",
+      "regions" : [ {
+        "id" : "8d7808bd-abed-410b-89c6-e4fbe016610b",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e2798f88-aee3-482b-8bf8-3ff07b124c29",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Contact Us (Apex)"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "82bc3914-e36d-4f16-b921-455a71ef177c",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "42b11aa1-1917-4062-bec8-fd23e924b645",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-contact-us-apex"
+}
