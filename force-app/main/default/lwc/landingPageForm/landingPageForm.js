@@ -1,3 +1,5 @@
 import { LightningElement } from 'lwc';
 
-export default class LandingPageForm extends LightningElement {}
+export default class LandingPageForm extends LightningElement {
+    
+}
