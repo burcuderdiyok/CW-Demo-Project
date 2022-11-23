@@ -65,7 +65,7 @@
         <locationX>50</locationX>
         <locationY>998</locationY>
         <assignmentItems>
-            <assignToReference>assign_Campaign_Member.Id</assignToReference>
+            <assignToReference>assign_Campaign_Member.CampaignId</assignToReference>
             <operator>Assign</operator>
             <value>
                 <elementReference>Get_Campaigns.Id</elementReference>
@@ -177,49 +177,49 @@
             <assignToReference>assign_Lead.FirstName</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Copy_1_of_name.firstName</elementReference>
+                <elementReference>name.firstName</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>assign_Lead.LastName</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Copy_1_of_name.lastName</elementReference>
+                <elementReference>name.lastName</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>assign_Lead.Email</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Copy_1_of_email.value</elementReference>
+                <elementReference>email.value</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>assign_Lead.Phone</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Copy_1_of_phone.value</elementReference>
+                <elementReference>phone.value</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>assign_Lead.City</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Copy_1_of_address.city</elementReference>
+                <elementReference>address.city</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>assign_Lead.State</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Copy_1_of_address.province</elementReference>
+                <elementReference>address.inputProvinceOptions</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>assign_Lead.PostalCode</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Copy_1_of_address.postalCode</elementReference>
+                <elementReference>address.postalCode</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -233,7 +233,7 @@
             <assignToReference>assign_Lead.Street</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Copy_1_of_address.street</elementReference>
+                <elementReference>address.street</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -587,7 +587,7 @@
             <targetReference>Get_Campaigns</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>assign_Ad</name>
         <dataType>SObject</dataType>
